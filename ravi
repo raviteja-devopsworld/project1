@@ -1,0 +1,359 @@
+    1  ls -l Testkey.ppk
+    2  chmod 400 testkey.ppk 
+    3  ls -l testkey.ppk 
+    4  chmod 400 Testkey.ppk
+    5  ssh -i Demokey.pen ect2-user@65.1.109.170
+    6  ssh -i Demokey.pem ec2-user@65.1.109.170
+    7  ls -l Demokey.pem
+    8  ssh -l Demokey.pem ect2-user@65.1.109.170
+    9  git --ver
+   10  git add --help
+   11  mkdir ranjith
+   12  ls
+   13  touch text
+   14  ls
+   15  git status
+   16  git add .text
+   17  cd ranjith
+   18  touch readme.txt
+   19  ls
+   20  git add .
+   21  git status
+   22  git add .
+   23  cd ../..
+   24  cd ..
+   25  init 0
+   26  ls
+   27  mkdir learning
+   28  ls
+   29  git status
+   30  git --version
+   31  git status
+   32  git init .
+   33  touch ravi
+   34  cat >ravi
+   35  git status
+   36  git add . ravi
+   37  git status
+   38  git add .ravi
+   39  git add . ravi
+   40  git init .
+   41  git add . ravi
+   42  git add ravi
+   43  git status
+   44  git config user.name
+   45  git config user.name "ravi"
+   46  git config user.email "ravi@gmail.com"
+   47  git commit -m "i want to listen class" ravi
+   48  git status
+   49  history
+   50  history >a1file
+   51  history
+   52  git --version
+   53  sudo su -
+   54  mkdir learning
+   55  ls
+   56  pwd
+   57  cd learning
+   58  ls
+   59  git status
+   60  git --version
+   61  git init 
+   62  git status
+   63  mkdir learning
+   64  ls
+   65  git status
+   66  ls
+   67  touch 1.txt
+   68  ls
+   69  git status
+   70  git add .
+   71  git status
+   72  git commit -m "this is the fifth commit"
+   73  mkdir learning
+   74  cd learning
+   75  git init
+   76  touch readme.txt
+   77  git statud
+   78  git status
+   79  git add --help
+   80  git add .
+   81  git status
+   82  git config --global user.name "raviteja"
+   83  git config --global user.email "raviteja@gmail.com"
+   84  git commit -m "this is my first commit"
+   85  git status
+   86  git log
+   87  git status
+   88  echo "first">> readme.txt
+   89  echo "welcome to git">> src/main.py
+   90  git status
+   91  git add src/main.py
+   92  git status
+   93  git add .
+   94  ls
+   95  git status
+   96  git commit -m "this is my first commit"
+   97  git status
+   98  git add src/main.py
+   99  git add .
+  100  git status
+  101  git log
+  102  git status
+  103  mkdir learning
+  104  clear
+  105  mkdir learning
+  106  ls
+  107  git status
+  108  cd learning
+  109  git init
+  110  touch readme.txt
+  111  git status
+  112  git add --help
+  113  git add .
+  114  git status
+  115  git config --global user.name "raviteja"
+  116  git config --global user.email "raviteja@gmail.com"
+  117  git commit -m "this is my first commit"
+  118  git log
+  119  git status
+  120  git add src/main.py
+  121  touch src/main.py
+  122  git status\
+  123  git status
+  124  git add src/main.py
+  125  git add .src/main.py
+  126  echo "welcome to git">>src/main.py
+  127  echo "welcome to git">> src/main.py
+  128  touch src/main.py
+  129  ls
+  130  touch src/main.py
+  131  ls
+  132  touch src/main.py
+  133  touch text
+  134  ls
+  135  git init
+  136  git add . readme.txt text
+  137  git status
+  138  git add . readme.txt
+  139  git status
+  140  git commit -m "this is second commit" text
+  141  git status
+  142  git log
+  143  git log --online
+  144  git log --oneline
+  145  mkdir test
+  146  git status
+  147  echo "first" >> test/test.py
+  148  git status
+  149  git add test/
+  150  git status
+  151  git commit -m "this is third commit"
+  152  git add --all
+  153  git add -u
+  154  git add --help
+  155  git status
+  156  git add --u
+  157  git status
+  158  git add text
+  159  git status
+  160  git init
+  161  touch dishaa{1..4}
+  162  ls
+  163  git status
+  164  git add .
+  165  git status
+  166  git restore --staged .New Text Document.txt
+  167  git restore--staged .New Text Document.txt
+  168  git status
+  169  git restore --staged .desktop.ini
+  170  git restore --staged .
+  171  git restore --staged.
+  172  git status
+  173  git restore --staged
+  174  git restore --staged .
+  175  git status
+  176  git add dishaa*
+  177  git status
+  178  git add dishaa*
+  179  ls
+  180  git status
+  181  git commit -m "disha commits" dishaa*
+  182  ll
+  183  mkdir learning
+  184  ls
+  185  cd learning
+  186  git init
+  187  touch readme.txt
+  188  git status
+  189  git add --help
+  190  git add .
+  191  git status
+  192  git config --global user.name "raviteja"
+  193  git config --global user.email "raviteja@gmail.com"
+  194  git status
+  195  git commit -m "this is first commit"
+  196  git status
+  197  git status
+  198  git add .
+  199  git commit -m "fixed"
+  200  git status
+  201  ls
+  202  cd learning
+  203  ls
+  204  git status
+  205  git log --oneline
+  206  touch document.txt
+  207  git status
+  208  git clean -fd .
+  209  ls
+  210  git status
+  211  git log --oneline
+  212  git checkout a043247
+  213   git switch -
+  214  ls -la
+  215  cd .git/
+  216  ls
+  217  cat -n config
+  218  cd ..
+  219  git log --oneliner
+  220  git log --oneline
+  221  git checkout master
+  222  git log --onleine
+  223  touch src
+  224  ls
+  225  git add .
+  226  git status
+  227  git commit -m "this is second commit"
+  228  git status
+  229  git log --online
+  230  git log
+  231  git log --online
+  232  git checkout master
+  233  git log --online
+  234  git log --oneline
+  235   git remote --help
+  236  exit
+  237  cd learning
+  238  ls
+  239  exit
+  240  cd leaning
+  241  cd learning/
+  242  ls
+  243  git status
+  244  mkdir test
+  245  ls
+  246  git status
+  247  echo "hello" >>test/test.py
+  248  git status
+  249  git add test/
+  250  git status
+  251  git commit -m "thirde commit"
+  252  git add --all
+  253  git add -u
+  254  git status
+  255  git add --help
+  256  git status
+  257  git add src/
+  258  git statusg
+  259  git status
+  260  git add src
+  261  git status
+  262  git add test/test.py
+  263  git status
+  264  ls
+  265  git log
+  266  git log --online
+  267  git log --oneline
+  268  git checkout a043247
+  269  ls
+  270  git checkout master
+  271  ls
+  272  git status
+  273  git checkout -- readme.txt
+  274  git status
+  275  ls
+  276  git reset readme.txt
+  277  git status
+  278  git reset --hard
+  279  git status
+  280  rm readme.txt
+  281  git status
+  282  git add readme.txt
+  283  git status
+  284  git log
+  285  git log --oneline
+  286  git clean --help]
+  287  git clean
+  288  cat >>src
+  289  git status
+  290  git add src
+  291  git status
+  292  git log
+  293  cat src
+  294  cat -n src
+  295   ls
+  296  history
+  297  exit
+  298  cd working/
+  299  git --version
+  300  git status
+  301  git init
+  302  git status
+  303  ls
+  304  cat >mango
+  305  mkdir src
+  306  mkdir dist
+  307  git status\
+  308  git status
+  309  ls
+  310  touch src/main.py
+  311  touch dist/pom.xml
+  312  git status
+  313  git add .
+  314  git status
+  315  git commit -m "this is python project"
+  316  git status
+  317  git config -- global user.name "raviteja"
+  318  git config --global user.name "raviteja"
+  319  git config --global user.email "raviteja@gmail.com"
+  320  git status
+  321  git remote add origin https://github.com/raviteja-devopsworld/project1.git
+  322  git branch
+  323  git push -u origin master
+  324  ls
+  325  ls -la
+  326  git branch
+  327  git log --oneline
+  328  git remote --help
+  329  git remote
+  330  git status
+  331  ls
+  332  cat >>mango
+  333  git status
+  334  git add .
+  335  git commit -m "second commit"
+  336  git status
+  337  ls
+  338  touch apple
+  339  git status
+  340  git add .
+  341  git commit -m "third commit"
+  342  git status
+  343  ls
+  344  git push
+  345  ls
+  346  touch green
+  347  git status
+  348  git add .
+  349  git commit -m "fixed"
+  350  git status
+  351  git push
+  352  git pull
+  353  ls
+  354  git push
+  355  ls
+  356  history
+  357  history ravi
+  358  cat ravi
+  359  history >>ravi
